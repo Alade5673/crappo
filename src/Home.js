@@ -138,7 +138,7 @@ function Home() {
                     <img alt="" src={bottom} className=" max-w-lg "/>
                 </div> 
             </div>
-            <div className=" flex w-full justify-center items-center">
+            <div className=" flex w-full justify-center items-center pb-56">
                 <div>
                     <p className="text-white font-extrabold text-3xl">Check how much you can earn</p>
                     <p className="text-white font-light text-xs mt-8 ml-8">Let’s check your hash rate to see how much you will earn today, </p>
@@ -149,9 +149,39 @@ function Home() {
 
 
 
-        <div className="bg-gray-100 ">
-            <div>
+        <div className="bg-gray-100 pt-20">
+            <div className="bg-white ml-80 -mt-56 mr-80 rounded-xl flex">
+                <div>
+                    <div className="ml-4 mt-4 flex">
+                        <input
+                            className=" bg-transparent mt-5 h-8 focus:outline-none focus:shadow-outline border-b border-gray-300 py-0 px-0 w-72 appearance-none leading-normal" type="email"
+                            placeholder="Enter your hash rate"
+                        />
 
+                        <input
+                            className=" bg-transparent ml-8 mt-5 h-8 focus:outline-none focus:shadow-outline border-b border-gray-300 py-0 px-0 w-36 appearance-none leading-normal" type="email"
+                            placeholder="TH/s"
+                        />
+
+                        <button className="flex w-28 bg-buttonColor md:text-sm text-xl text-white font-normal rounded-full h-10 pt-3 pl-6 mt-2 ml-4 " >
+                                Calculate
+                        </button>
+                        
+                    </div>
+
+                    <div className="mt-24">
+                        <p className="text-buttonColor font-bold text-sm mt-2 ml-4">ESTIMATED 24 HOUR REVENUE:</p>
+                        <div className="flex">
+                            <p className="text-black font-bold text-2xl mt-2 ml-4">0.055 130 59 ETH</p>
+                            <p className="text-buttonColor font-bold text-2xl mt-2 ml-2">($1275)</p>
+                        </div>
+                        <p className="text-gray-300 font-light text-md mt-2 ml-4 mb-10">Revenue will change based on mining difficulty and Ethereum price.</p>
+                        
+                    </div>
+                </div>
+                
+
+                
             </div>
 
             <div className=" flex w-full justify-center items-center">
