@@ -10,7 +10,7 @@ function App() {
         <title>Crappo</title>
         <meta
           name="description"
-          content="Crypto Wallet"
+          content="Crappo Crypto Wallet"
         />
       </Helmet>
 
